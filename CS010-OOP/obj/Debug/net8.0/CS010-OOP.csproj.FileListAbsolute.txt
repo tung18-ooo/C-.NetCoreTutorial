@@ -1,0 +1,15 @@
+D:\C#\repos\dotnetTutorial\CS010-OOP\bin\Debug\net8.0\CS010-OOP.exe
+D:\C#\repos\dotnetTutorial\CS010-OOP\bin\Debug\net8.0\CS010-OOP.deps.json
+D:\C#\repos\dotnetTutorial\CS010-OOP\bin\Debug\net8.0\CS010-OOP.runtimeconfig.json
+D:\C#\repos\dotnetTutorial\CS010-OOP\bin\Debug\net8.0\CS010-OOP.dll
+D:\C#\repos\dotnetTutorial\CS010-OOP\bin\Debug\net8.0\CS010-OOP.pdb
+D:\C#\repos\dotnetTutorial\CS010-OOP\obj\Debug\net8.0\CS010-OOP.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\repos\dotnetTutorial\CS010-OOP\obj\Debug\net8.0\CS010-OOP.AssemblyInfoInputs.cache
+D:\C#\repos\dotnetTutorial\CS010-OOP\obj\Debug\net8.0\CS010-OOP.AssemblyInfo.cs
+D:\C#\repos\dotnetTutorial\CS010-OOP\obj\Debug\net8.0\CS010-OOP.csproj.CoreCompileInputs.cache
+D:\C#\repos\dotnetTutorial\CS010-OOP\obj\Debug\net8.0\CS010-OOP.sourcelink.json
+D:\C#\repos\dotnetTutorial\CS010-OOP\obj\Debug\net8.0\CS010-OOP.dll
+D:\C#\repos\dotnetTutorial\CS010-OOP\obj\Debug\net8.0\refint\CS010-OOP.dll
+D:\C#\repos\dotnetTutorial\CS010-OOP\obj\Debug\net8.0\CS010-OOP.pdb
+D:\C#\repos\dotnetTutorial\CS010-OOP\obj\Debug\net8.0\CS010-OOP.genruntimeconfig.cache
+D:\C#\repos\dotnetTutorial\CS010-OOP\obj\Debug\net8.0\ref\CS010-OOP.dll

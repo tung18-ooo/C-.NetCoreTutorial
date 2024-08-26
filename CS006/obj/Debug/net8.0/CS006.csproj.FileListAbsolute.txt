@@ -1,0 +1,15 @@
+D:\C#\repos\dotnetTutorial\CS006\bin\Debug\net8.0\CS006.exe
+D:\C#\repos\dotnetTutorial\CS006\bin\Debug\net8.0\CS006.deps.json
+D:\C#\repos\dotnetTutorial\CS006\bin\Debug\net8.0\CS006.runtimeconfig.json
+D:\C#\repos\dotnetTutorial\CS006\bin\Debug\net8.0\CS006.dll
+D:\C#\repos\dotnetTutorial\CS006\bin\Debug\net8.0\CS006.pdb
+D:\C#\repos\dotnetTutorial\CS006\obj\Debug\net8.0\CS006.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\repos\dotnetTutorial\CS006\obj\Debug\net8.0\CS006.AssemblyInfoInputs.cache
+D:\C#\repos\dotnetTutorial\CS006\obj\Debug\net8.0\CS006.AssemblyInfo.cs
+D:\C#\repos\dotnetTutorial\CS006\obj\Debug\net8.0\CS006.csproj.CoreCompileInputs.cache
+D:\C#\repos\dotnetTutorial\CS006\obj\Debug\net8.0\CS006.sourcelink.json
+D:\C#\repos\dotnetTutorial\CS006\obj\Debug\net8.0\CS006.dll
+D:\C#\repos\dotnetTutorial\CS006\obj\Debug\net8.0\refint\CS006.dll
+D:\C#\repos\dotnetTutorial\CS006\obj\Debug\net8.0\CS006.pdb
+D:\C#\repos\dotnetTutorial\CS006\obj\Debug\net8.0\CS006.genruntimeconfig.cache
+D:\C#\repos\dotnetTutorial\CS006\obj\Debug\net8.0\ref\CS006.dll
