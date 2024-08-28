@@ -1,0 +1,15 @@
+D:\C#\repos\dotnetTutorial\CS019\bin\Debug\net8.0\CS019.exe
+D:\C#\repos\dotnetTutorial\CS019\bin\Debug\net8.0\CS019.deps.json
+D:\C#\repos\dotnetTutorial\CS019\bin\Debug\net8.0\CS019.runtimeconfig.json
+D:\C#\repos\dotnetTutorial\CS019\bin\Debug\net8.0\CS019.dll
+D:\C#\repos\dotnetTutorial\CS019\bin\Debug\net8.0\CS019.pdb
+D:\C#\repos\dotnetTutorial\CS019\obj\Debug\net8.0\CS019.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\repos\dotnetTutorial\CS019\obj\Debug\net8.0\CS019.AssemblyInfoInputs.cache
+D:\C#\repos\dotnetTutorial\CS019\obj\Debug\net8.0\CS019.AssemblyInfo.cs
+D:\C#\repos\dotnetTutorial\CS019\obj\Debug\net8.0\CS019.csproj.CoreCompileInputs.cache
+D:\C#\repos\dotnetTutorial\CS019\obj\Debug\net8.0\CS019.sourcelink.json
+D:\C#\repos\dotnetTutorial\CS019\obj\Debug\net8.0\CS019.dll
+D:\C#\repos\dotnetTutorial\CS019\obj\Debug\net8.0\refint\CS019.dll
+D:\C#\repos\dotnetTutorial\CS019\obj\Debug\net8.0\CS019.pdb
+D:\C#\repos\dotnetTutorial\CS019\obj\Debug\net8.0\CS019.genruntimeconfig.cache
+D:\C#\repos\dotnetTutorial\CS019\obj\Debug\net8.0\ref\CS019.dll
