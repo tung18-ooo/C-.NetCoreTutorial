@@ -1,0 +1,15 @@
+D:\C#\repos\dotnetTutorial\CS030_LINQ\bin\Debug\net8.0\CS030_LINQ.exe
+D:\C#\repos\dotnetTutorial\CS030_LINQ\bin\Debug\net8.0\CS030_LINQ.deps.json
+D:\C#\repos\dotnetTutorial\CS030_LINQ\bin\Debug\net8.0\CS030_LINQ.runtimeconfig.json
+D:\C#\repos\dotnetTutorial\CS030_LINQ\bin\Debug\net8.0\CS030_LINQ.dll
+D:\C#\repos\dotnetTutorial\CS030_LINQ\bin\Debug\net8.0\CS030_LINQ.pdb
+D:\C#\repos\dotnetTutorial\CS030_LINQ\obj\Debug\net8.0\CS030_LINQ.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\repos\dotnetTutorial\CS030_LINQ\obj\Debug\net8.0\CS030_LINQ.AssemblyInfoInputs.cache
+D:\C#\repos\dotnetTutorial\CS030_LINQ\obj\Debug\net8.0\CS030_LINQ.AssemblyInfo.cs
+D:\C#\repos\dotnetTutorial\CS030_LINQ\obj\Debug\net8.0\CS030_LINQ.csproj.CoreCompileInputs.cache
+D:\C#\repos\dotnetTutorial\CS030_LINQ\obj\Debug\net8.0\CS030_LINQ.sourcelink.json
+D:\C#\repos\dotnetTutorial\CS030_LINQ\obj\Debug\net8.0\CS030_LINQ.dll
+D:\C#\repos\dotnetTutorial\CS030_LINQ\obj\Debug\net8.0\refint\CS030_LINQ.dll
+D:\C#\repos\dotnetTutorial\CS030_LINQ\obj\Debug\net8.0\CS030_LINQ.pdb
+D:\C#\repos\dotnetTutorial\CS030_LINQ\obj\Debug\net8.0\CS030_LINQ.genruntimeconfig.cache
+D:\C#\repos\dotnetTutorial\CS030_LINQ\obj\Debug\net8.0\ref\CS030_LINQ.dll

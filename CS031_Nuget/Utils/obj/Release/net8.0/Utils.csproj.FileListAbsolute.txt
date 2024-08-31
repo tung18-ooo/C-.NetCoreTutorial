@@ -1,0 +1,11 @@
+C:\Users\Admin\Desktop\Utils\bin\Release\net8.0\Utils.deps.json
+C:\Users\Admin\Desktop\Utils\bin\Release\net8.0\Utils.dll
+C:\Users\Admin\Desktop\Utils\bin\Release\net8.0\Utils.pdb
+C:\Users\Admin\Desktop\Utils\obj\Release\net8.0\Utils.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Utils\obj\Release\net8.0\Utils.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Utils\obj\Release\net8.0\Utils.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Utils\obj\Release\net8.0\Utils.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Utils\obj\Release\net8.0\Utils.dll
+C:\Users\Admin\Desktop\Utils\obj\Release\net8.0\refint\Utils.dll
+C:\Users\Admin\Desktop\Utils\obj\Release\net8.0\Utils.pdb
+C:\Users\Admin\Desktop\Utils\obj\Release\net8.0\ref\Utils.dll
