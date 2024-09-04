@@ -1,0 +1,15 @@
+D:\C#\repos\dotnetTutorial\CS034_HttpClient_Networking1\bin\Debug\net8.0\CS034_HttpClient_Networking1.exe
+D:\C#\repos\dotnetTutorial\CS034_HttpClient_Networking1\bin\Debug\net8.0\CS034_HttpClient_Networking1.deps.json
+D:\C#\repos\dotnetTutorial\CS034_HttpClient_Networking1\bin\Debug\net8.0\CS034_HttpClient_Networking1.runtimeconfig.json
+D:\C#\repos\dotnetTutorial\CS034_HttpClient_Networking1\bin\Debug\net8.0\CS034_HttpClient_Networking1.dll
+D:\C#\repos\dotnetTutorial\CS034_HttpClient_Networking1\bin\Debug\net8.0\CS034_HttpClient_Networking1.pdb
+D:\C#\repos\dotnetTutorial\CS034_HttpClient_Networking1\obj\Debug\net8.0\CS034_HttpClient_Networking1.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\repos\dotnetTutorial\CS034_HttpClient_Networking1\obj\Debug\net8.0\CS034_HttpClient_Networking1.AssemblyInfoInputs.cache
+D:\C#\repos\dotnetTutorial\CS034_HttpClient_Networking1\obj\Debug\net8.0\CS034_HttpClient_Networking1.AssemblyInfo.cs
+D:\C#\repos\dotnetTutorial\CS034_HttpClient_Networking1\obj\Debug\net8.0\CS034_HttpClient_Networking1.csproj.CoreCompileInputs.cache
+D:\C#\repos\dotnetTutorial\CS034_HttpClient_Networking1\obj\Debug\net8.0\CS034_HttpClient_Networking1.sourcelink.json
+D:\C#\repos\dotnetTutorial\CS034_HttpClient_Networking1\obj\Debug\net8.0\CS034_HttpClient_Networking1.dll
+D:\C#\repos\dotnetTutorial\CS034_HttpClient_Networking1\obj\Debug\net8.0\refint\CS034_HttpClient_Networking1.dll
+D:\C#\repos\dotnetTutorial\CS034_HttpClient_Networking1\obj\Debug\net8.0\CS034_HttpClient_Networking1.pdb
+D:\C#\repos\dotnetTutorial\CS034_HttpClient_Networking1\obj\Debug\net8.0\CS034_HttpClient_Networking1.genruntimeconfig.cache
+D:\C#\repos\dotnetTutorial\CS034_HttpClient_Networking1\obj\Debug\net8.0\ref\CS034_HttpClient_Networking1.dll

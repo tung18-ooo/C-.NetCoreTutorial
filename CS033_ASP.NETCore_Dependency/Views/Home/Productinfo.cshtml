@@ -1,0 +1,18 @@
+﻿@using static CS033_ASP.NETCore_Dependency.ProductServices
+@model Product
+
+<h1>Thong tin san pham</h1>
+
+@if (Model == null)
+{
+    <div class="alert alert-danger">Khong tim thay san pham</div>
+}
+else
+{
+    <div class="card">
+        <div class="card-body">
+            <p>Ten san pham: <strong>@Model.Name</strong></p>
+            <p>Gia san pham: <strong>@Model.Price</strong></p>
+        </div>
+    </div>
+}

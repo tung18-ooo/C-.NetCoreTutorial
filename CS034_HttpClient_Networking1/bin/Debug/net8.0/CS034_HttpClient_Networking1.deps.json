@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CS034_HttpClient_Networking1/1.0.0": {
+        "runtime": {
+          "CS034_HttpClient_Networking1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CS034_HttpClient_Networking1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,15 @@
+D:\C#\repos\dotnetTutorial\CS032\bin\Debug\net8.0\CS032.exe
+D:\C#\repos\dotnetTutorial\CS032\bin\Debug\net8.0\CS032.deps.json
+D:\C#\repos\dotnetTutorial\CS032\bin\Debug\net8.0\CS032.runtimeconfig.json
+D:\C#\repos\dotnetTutorial\CS032\bin\Debug\net8.0\CS032.dll
+D:\C#\repos\dotnetTutorial\CS032\bin\Debug\net8.0\CS032.pdb
+D:\C#\repos\dotnetTutorial\CS032\obj\Debug\net8.0\CS032.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\repos\dotnetTutorial\CS032\obj\Debug\net8.0\CS032.AssemblyInfoInputs.cache
+D:\C#\repos\dotnetTutorial\CS032\obj\Debug\net8.0\CS032.AssemblyInfo.cs
+D:\C#\repos\dotnetTutorial\CS032\obj\Debug\net8.0\CS032.csproj.CoreCompileInputs.cache
+D:\C#\repos\dotnetTutorial\CS032\obj\Debug\net8.0\CS032.sourcelink.json
+D:\C#\repos\dotnetTutorial\CS032\obj\Debug\net8.0\CS032.dll
+D:\C#\repos\dotnetTutorial\CS032\obj\Debug\net8.0\refint\CS032.dll
+D:\C#\repos\dotnetTutorial\CS032\obj\Debug\net8.0\CS032.pdb
+D:\C#\repos\dotnetTutorial\CS032\obj\Debug\net8.0\CS032.genruntimeconfig.cache
+D:\C#\repos\dotnetTutorial\CS032\obj\Debug\net8.0\ref\CS032.dll
