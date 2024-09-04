@@ -2,6 +2,7 @@
 using System.Net;
 using System.Net.Http.Headers;
 using System.Net.NetworkInformation;
+using System.Text;
 
 
 // uri, Dns, Ping
@@ -98,9 +99,90 @@ httpRequestMessage.Method = HttpMethod.Get;
 httpRequestMessage.RequestUri = new Uri("https://www.google.com.vn");
 httpRequestMessage.Headers.Add("User-Agent", "Mozilla/5.0 (X11; Linux x86_64; rv:12.0) Gecko/20100101 Firefox/12.0");
 
+//httpMessageRequest.Content => Form HTML, File,..
+
 var httpResponseMessage  = await httpClient.SendAsync(httpRequestMessage);
+
+ShowHeaders(httpResponseMessage.Headers);
+
 var html1 = await httpResponseMessage.Content.ReadAsStringAsync();
 Console.WriteLine(html1);
+
+using var httpClient1 = new HttpClient();
+var httpRequestMessage1 = new HttpRequestMessage();
+httpRequestMessage1.Method = HttpMethod.Post;
+httpRequestMessage1.RequestUri = new Uri("https://postman-echo.com/post");
+httpRequestMessage1.Headers.Add("User-Agent", "Mozilla/5.0 (X11; Linux x86_64; rv:12.0) Gecko/20100101 Firefox/12.0");
+
+//httpMessageRequest.Content => Form HTML, File,..
+//Post => Form HTML
+/*
+ key1 => value1                     // Input
+key2 => [value2-1, value2-2]        //[Multi Select]
+ */
+
+var parameters = new List<KeyValuePair<string, string>>();
+parameters.Add(new KeyValuePair<string, string>("key1", "value1"));
+parameters.Add(new KeyValuePair<string, string>("key2", "value2-1"));
+parameters.Add(new KeyValuePair<string, string>("key2", "value2-2"));
+
+var content = new FormUrlEncodedContent(parameters);
+httpRequestMessage1.Content = content;
+
+var httpResponseMessage1 = await httpClient1.SendAsync(httpRequestMessage1);
+
+ShowHeaders(httpResponseMessage1.Headers);
+
+var html2 = await httpResponseMessage1.Content.ReadAsStringAsync();
+Console.WriteLine(html2);
+
+Console.WriteLine("--------------------------------");
+
+using var httpClient2 = new HttpClient();
+var httpRequestMessage2 = new HttpRequestMessage();
+httpRequestMessage2.Method = HttpMethod.Post;
+httpRequestMessage2.RequestUri = new Uri("https://postman-echo.com/post");
+httpRequestMessage2.Headers.Add("User-Agent", "Mozilla/5.0 (X11; Linux x86_64; rv:12.0) Gecko/20100101 Firefox/12.0");
+
+
+string data = @"{
+""key1"": ""giatri1"",
+""key1"": ""giatri2"",
+}";
+Console.WriteLine(data);
+
+var content2 = new StringContent(data,Encoding.UTF8, "application/json");
+httpRequestMessage2.Content = content;
+
+var httpResponseMessage2 = await httpClient2.SendAsync(httpRequestMessage2);
+
+ShowHeaders(httpResponseMessage2.Headers);
+
+var html3 = await httpResponseMessage2.Content.ReadAsStringAsync();
+Console.WriteLine(html3);
+
+Console.WriteLine("---------------------------------");
+using var httpClient3= new HttpClient();
+var httpRequestMessage3 = new HttpRequestMessage();
+httpRequestMessage3.Method = HttpMethod.Post;
+httpRequestMessage3.RequestUri = new Uri("https://postman-echo.com/post");
+httpRequestMessage3.Headers.Add("User-Agent", "Mozilla/5.0 (X11; Linux x86_64; rv:12.0) Gecko/20100101 Firefox/12.0");
+
+var content3 =new MultipartFormDataContent();
+//upload 1.txt
+Stream filestream = File.OpenRead("1.txt");
+var fileUpload = new StreamContent(filestream); //past
+content3.Add(fileUpload,"fileupload","abc.xyz");
+//
+content3.Add(new StringContent("value1"), "key1");
+httpRequestMessage3.Content = content3;
+
+var httpResponseMessage3 = await httpClient3.SendAsync(httpRequestMessage3);
+
+ShowHeaders(httpResponseMessage3.Headers);
+
+var html4 = await httpResponseMessage3.Content.ReadAsStringAsync();
+Console.WriteLine(html4);
 
 static async Task<string> GetWebContext(string url)
 {
