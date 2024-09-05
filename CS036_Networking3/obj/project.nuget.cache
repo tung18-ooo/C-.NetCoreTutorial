@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "OvV95h06A3lHlZlQcLG4SEduir48eEPMgp1no0BaeJt5ut4YE9T8aS+LlTlv5K4SpCpVPMXNTfCB06NlBoJNew==",
+  "success": true,
+  "projectFilePath": "D:\\C#\\repos\\dotnetTutorial\\CS036_Networking3\\CS036_Networking3.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
