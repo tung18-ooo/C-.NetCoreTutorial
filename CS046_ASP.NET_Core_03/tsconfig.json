@@ -1,0 +1,11 @@
+﻿{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node", // Add or verify this option
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "exclude": [ "node_modules" ]
+}

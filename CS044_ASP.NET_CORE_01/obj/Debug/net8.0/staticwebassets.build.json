@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "QLGzUuLOTTF6xwJGUzFg9/qtd19uvuwq8WqY7E+Atec=",
+  "Source": "CS044_ASP.NET_CORE_01",
+  "BasePath": "_content/CS044_ASP.NET_CORE_01",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "CS044_ASP.NET_CORE_01\\wwwroot",
+      "Source": "CS044_ASP.NET_CORE_01",
+      "ContentRoot": "D:\\C#\\repos\\dotnetTutorial\\CS044_ASP.NET_CORE_01\\wwwroot\\",
+      "BasePath": "_content/CS044_ASP.NET_CORE_01",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\C#\\repos\\dotnetTutorial\\CS044_ASP.NET_CORE_01\\wwwroot\\1.txt",
+      "SourceId": "CS044_ASP.NET_CORE_01",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\C#\\repos\\dotnetTutorial\\CS044_ASP.NET_CORE_01\\wwwroot\\",
+      "BasePath": "_content/CS044_ASP.NET_CORE_01",
+      "RelativePath": "1.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\1.txt"
+    }
+  ]
+}

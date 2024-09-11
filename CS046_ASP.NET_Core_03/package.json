@@ -1,0 +1,33 @@
+{
+  "name": "cs046_asp.net_core_03",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "watch": "webpack --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.80.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-watch": "^1.0.0" // Updated package for watch functionality
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.7.1",
+    "cssnano": "^5.1.15",
+    "file-loader": "^6.2.0",
+    "jquery": "^3.6.4",
+    "mini-css-extract-plugin": "^2.7.3",
+    "node-sass": "^7.0.3",
+    "postcss-loader": "^6.2.1",
+    "postcss-preset-env": "^7.0.3",
+    "sass-loader": "^13.3.2",
+    "popper.js": "^2.11.8" // Updated to Popper 2
+  }
+}

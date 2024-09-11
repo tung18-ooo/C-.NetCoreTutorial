@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "P7zdeuiGibEwPd+isAOboyCM3BjnvTpOgHdApFF2cmeikZ0vxjJG2zuzHZHjYveASlCbA9uLPWm49MpvKp3C0A==",
+  "success": true,
+  "projectFilePath": "D:\\C#\\repos\\dotnetTutorial\\CS044_ASP.NET_CORE_01\\CS044_ASP.NET_CORE_01.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\buildbundlerminifier\\3.2.449\\buildbundlerminifier.3.2.449.nupkg.sha512"
+  ],
+  "logs": []
+}
