@@ -28,3 +28,6 @@ D:\C#\repos\dotnetTutorial\CS046_ASP.NET_Core_03\obj\Debug\net8.0\ref\CS046_ASP.
 D:\C#\repos\dotnetTutorial\CS046_ASP.NET_Core_03\bin\Debug\net8.0\package-lock.json
 D:\C#\repos\dotnetTutorial\CS046_ASP.NET_Core_03\bin\Debug\net8.0\package.json
 D:\C#\repos\dotnetTutorial\CS046_ASP.NET_Core_03\bin\Debug\net8.0\tsconfig.json
+D:\C#\repos\dotnetTutorial\CS046_ASP.NET_Core_03\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\C#\repos\dotnetTutorial\CS046_ASP.NET_Core_03\obj\Debug\net8.0\CS046_ASP.NET_Core_03.csproj.AssemblyReference.cache
+D:\C#\repos\dotnetTutorial\CS046_ASP.NET_Core_03\obj\Debug\net8.0\CS046_ASP.NET_Core_03.csproj.CopyComplete
