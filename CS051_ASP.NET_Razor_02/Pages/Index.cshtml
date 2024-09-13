@@ -1,0 +1,79 @@
+﻿@*
+    @bieuthuc @(bieuthuc) : -> HTML (encode)  < -> &lt    ,    > -> &gt;
+    Html.Raw(string) //no encode
+
+    - @{
+        - code C#
+        - mo the HTML -> xuat HTML
+        - phuong thuc cuc bo
+        <text>
+    }
+    - @if, @for, @foreach, @switch,...
+    - @Functin{
+        Members : Method, Field, Property,...
+    }
+
+    @page "url"
+    @model Model
+    @namespace
+    @using
+*@
+
+@page "/home"
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+    var xinchao = "<div class='elert alert-danger'>Xin chao cac ban</div>";
+}
+
+<h1 class="display-4 text-danger">Cu pham RAZOR - @Title</h1>
+
+<p>@Model.A</p>
+<ul>
+    <li>@(5 + 6)</li>
+    <li>PI = @Math.PI</li>
+    <li>Sin(Pi/4) la @Math.Sin(Math.PI / 4)</li>
+    <li>@("<h1>Xin chao</h1>")</li>
+    <li>@xinchao</li>
+    <li>@Html.Raw("<h1>Xin chao</h1>")</li>
+    <li>@Html.Raw(xinchao)</li>
+</ul>
+<hr />
+@{
+    var loichao = "ahhhhhh";
+    var Age = 20;
+    void XinChao(string name)
+    {
+        var msg = loichao + " " + name;
+        <p>@msg</p>
+    }
+}
+<p>@loichao</p>
+<br />
+@{
+    XinChao("I need more clothes");
+
+    string[] products = new string[] { "Iphone", "Nokia 111", "Samsung Y" };
+    foreach (var item in products)
+    {
+        //<p>@item</p>
+        <text> [@item] </text>
+    }
+    <br />
+    foreach (var item in products)
+    {
+        @: [@item]
+    }
+}
+@if (Age >= 18)
+{
+    <p>Ban @Age tuoi, duoc phep truy cap</p>
+}
+else
+{
+    <p>Ban @Age tuoi, khong duoc phep truy cap</p>
+}
+
+@functions {
+    string Title { get; set; } = "Title";
+}

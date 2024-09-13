@@ -1,0 +1,56 @@
+﻿@page "/index/{solanlap:int?}"
+@model _ASP.NET_Razor_01.Pages.FirstPageModel
+@{
+    ViewData["Title"] = "First";
+}
+
+<h1 style="color:blueviolet">@Model.title</h1>
+
+@* 
+ @{
+    ViewData["mydata"] = "HoangTung 2024";
+} *@ 
+<h2>@ViewData["mydata"]</h2>
+
+<h1 style="color:red">This is First Razor Page</h1>
+<p>smth ASP.Net Core (<strong>@DateTime.Now</strong>)</p>
+
+@{
+    var a = 2;
+    int b = 4;
+
+    <p>can bac 2 cua @b la @Math.Sqrt(@b)</p>
+}
+<p>Tong cua @a va @b la @(a + b)</p>
+
+
+@{
+    var lanlapstring = this.Request.RouteValues["solanlap"] ?? "0";
+
+    int solanlap = Int32.Parse(lanlapstring.ToString());    
+}
+<p>So lan lap la @solanlap</p>
+
+<ol>
+    @for (int i = 1; i <= solanlap; i++)
+    {
+        <li>muc thu @i</li>
+    }
+</ol>
+
+@functions{
+
+    /* OnGet, OnGetAbc, ....
+     * OnPost(), OnPostAbc()...
+     * --> Handle
+    */
+    
+    }
+}
+
+<p>@Model.Welcome($"{Model.title}")</p>
+<a href="https://www.instagram.com/htufn_1811/">My Instagram</a>
+<br />
+<p>@Model.Welcome("HoangTung")</p>
+
+<a asp-page="SecondPage">Trang thu 2</a>

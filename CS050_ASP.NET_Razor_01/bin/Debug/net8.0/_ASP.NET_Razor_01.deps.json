@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "_ASP.NET_Razor_01/1.0.0": {
+        "runtime": {
+          "_ASP.NET_Razor_01.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "_ASP.NET_Razor_01/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

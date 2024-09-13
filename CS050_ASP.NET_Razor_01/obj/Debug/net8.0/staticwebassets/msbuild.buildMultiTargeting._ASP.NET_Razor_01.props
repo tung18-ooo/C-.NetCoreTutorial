@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\_ASP.NET_Razor_01.props" />
+</Project>

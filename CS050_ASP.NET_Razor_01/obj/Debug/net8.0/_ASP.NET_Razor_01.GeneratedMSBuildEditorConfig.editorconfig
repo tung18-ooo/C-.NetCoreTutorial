@@ -1,0 +1,71 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = _ASP.NET_Razor_01
+build_property.RootNamespace = _ASP.NET_Razor_01
+build_property.ProjectDir = D:\C#\repos\dotnetTutorial\_ASP.NET_Razor_01\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\C#\repos\dotnetTutorial\_ASP.NET_Razor_01
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/C\#/repos/dotnetTutorial/_ASP.NET_Razor_01/Areas/Product/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvZHVjdFxQYWdlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/repos/dotnetTutorial/_ASP.NET_Razor_01/Areas/Product/Pages/NewProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvZHVjdFxQYWdlc1xOZXdQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/repos/dotnetTutorial/_ASP.NET_Razor_01/Areas/User/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxQYWdlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/repos/dotnetTutorial/_ASP.NET_Razor_01/Areas/User/Pages/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxQYWdlc1xMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/repos/dotnetTutorial/_ASP.NET_Razor_01/Pages/Dichvu/Dichvu1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGljaHZ1XERpY2h2dTEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/repos/dotnetTutorial/_ASP.NET_Razor_01/Pages/Dichvu/Dichvu2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGljaHZ1XERpY2h2dTIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/repos/dotnetTutorial/_ASP.NET_Razor_01/Pages/Dichvu/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGljaHZ1XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/repos/dotnetTutorial/_ASP.NET_Razor_01/Pages/FirstPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmlyc3RQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/repos/dotnetTutorial/_ASP.NET_Razor_01/Pages/SecondPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2Vjb25kUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/repos/dotnetTutorial/_ASP.NET_Razor_01/Pages/Shared/_MyLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9NeUxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/repos/dotnetTutorial/_ASP.NET_Razor_01/Pages/ThirdPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGhpcmRQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/repos/dotnetTutorial/_ASP.NET_Razor_01/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/repos/dotnetTutorial/_ASP.NET_Razor_01/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
