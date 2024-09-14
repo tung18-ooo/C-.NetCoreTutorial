@@ -1,0 +1,19 @@
+﻿@page
+@model CS055_ASP.NET_Razor_06.Pages.ContactRequestModel
+@{
+    ViewData["Title"] = "CONTACT";
+}
+
+<h1 class="display-4">Trang lien he</h1>
+<p class="lead">Dien cac thong tin lien he</p>
+
+@Model.UserId
+@Model.Tong(11,11.11)
+
+@* @functions{
+    public string UserId {get;set;} = "ID User ...";
+    public double Tong (double a,double b){
+        return a + b;
+    }
+}
+ *@

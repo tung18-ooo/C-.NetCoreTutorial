@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\CS055_ASP.NET_Razor_06.props" />
+</Project>

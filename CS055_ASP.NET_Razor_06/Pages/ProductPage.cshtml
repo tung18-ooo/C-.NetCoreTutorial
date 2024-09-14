@@ -1,0 +1,44 @@
+﻿@page "/product/{id:int?}"
+@model CS055_ASP.NET_Razor_06.Pages.ProductPageModel
+@{
+    var product = Model.product;
+    var products = Model.productService.GetAllProducts();
+}
+<h1>@ViewData["Title"]</h1>
+<p>Tong so san pham: @products.Count</p>
+@if (product != null)
+{
+    <h2>@product.Name</h2>
+    <p>Mo ta: @product.Description</p>
+    <p>Gia: @product.Price</p>
+
+    <hr />
+    <p>
+        <a class="btn btn-primary" asp-page="ProductPage" asp-route-id="">Danh sach san pham</a>
+
+        <form method="post" asp-page="ProductPage" asp-page-handler="delete" asp-route-id="@product.Id">
+            <button type="submit" class="btn btn-danger">Xoa san pham</button>
+        </form>
+    </p>
+
+}
+else
+{
+
+    <ul>
+        @foreach (var p in products)
+        {
+            <li>
+                <a asp-page="ProductPage" asp-route-id="@p.Id">
+                    @p.Name
+                </a>
+            </li>
+        }
+    </ul>
+    <hr />
+    <p>
+        <a class="btn btn-primary" asp-page="ProductPage" asp-page-handler="lastproduct">San pham cuoi</a>
+        <a class="btn btn-danger" asp-page="ProductPage" asp-page-handler="RemoveAll">Xoa tat ca san pham</a>
+        <a class="btn btn-primary" asp-page="ProductPage" asp-page-handler="Load">Load san pham</a>
+    </p>
+}

@@ -1,0 +1,18 @@
+﻿
+@using CS053_ASP.NET_Razor_04.Models
+@* @model string *@
+@model List<Product>
+
+@* 
+    <h1>@Model</h1> *@
+@*     <h1>Noi dung cua PruductBox</h1> *@
+
+<ul class="list-group">
+@foreach(var product in Model)
+{
+    <li class="list-group-item">
+        @product.Name <strong>@product.Price</strong>
+    </li>    
+}
+
+</ul>

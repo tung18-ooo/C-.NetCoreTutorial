@@ -1,0 +1,16 @@
+﻿@using CS053_ASP.NET_Razor_04.Models
+@model Product
+
+
+@* <div class="alert alert-danger">
+    Day la noi dung tu ProductItem
+</div> *@
+
+<div class="card my-4" style="width: 20rem">
+    <h2 class="card-header text-info">@Model.Name</h2>
+    <div class="card-body">
+        <p class="card-text">@Model.Description</p>
+        <p class="card-text">@Model.Price</p>
+        <a href="#" class="btn btn-danger btn-sm">Dat hang</a>
+    </div>
+</div>
