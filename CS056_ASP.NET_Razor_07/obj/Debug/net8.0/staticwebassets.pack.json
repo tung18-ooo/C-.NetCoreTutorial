@@ -1,0 +1,289 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CS056_ASP.NET_Razor_07.bundle.scp.css",
+      "PackagePath": "staticwebassets\\CS056_ASP.NET_Razor_07.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\Uploads\\38e511294e1206fd.png",
+      "PackagePath": "staticwebassets\\Uploads\\38e511294e1206fd.png"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\Uploads\\Untitled.png",
+      "PackagePath": "staticwebassets\\Uploads\\Untitled.png"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\Uploads\\d8525b2d956b3718.png",
+      "PackagePath": "staticwebassets\\Uploads\\d8525b2d956b3718.png"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\Uploads\\dde127b3956b41f52cea57ba7c0081b2.png",
+      "PackagePath": "staticwebassets\\Uploads\\dde127b3956b41f52cea57ba7c0081b2.png"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\Uploads\\pexels-dids-3528052.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\pexels-dids-3528052.jpg"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\Uploads\\đại ka bỏ rơi chúng em à.mp4",
+      "PackagePath": "staticwebassets\\Uploads\\đại ka bỏ rơi chúng em à.mp4"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS056_ASP.NET_Razor_07\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CS056_ASP.NET_Razor_07.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.CS056_ASP.NET_Razor_07.props",
+      "PackagePath": "build\\CS056_ASP.NET_Razor_07.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.CS056_ASP.NET_Razor_07.props",
+      "PackagePath": "buildMultiTargeting\\CS056_ASP.NET_Razor_07.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.CS056_ASP.NET_Razor_07.props",
+      "PackagePath": "buildTransitive\\CS056_ASP.NET_Razor_07.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

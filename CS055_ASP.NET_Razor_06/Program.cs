@@ -43,6 +43,12 @@ app.Run();
  * - Route data: HttpRequest.RouteValues["key"]
  * - Upload
  * - Body
- * Doc du lieu
- * - HttpRequest (Controller, PageModel, View)
+ * Doc du lieu : HttpRequest (Controller, PageModel, View)
+ * 
+ * - Attributes : Parameter Binding, Property Binding
+ *  
+ *  Parameters Binding:
+ *  
+ *  Property Binding:
+ *  - [PropertyBinding] - post
  * */

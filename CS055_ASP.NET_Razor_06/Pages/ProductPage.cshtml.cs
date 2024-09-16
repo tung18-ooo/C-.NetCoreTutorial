@@ -3,6 +3,7 @@ using CS055_ASP.NET_Razor_06.Services;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace CS055_ASP.NET_Razor_06.Pages
 {
@@ -34,8 +35,37 @@ namespace CS055_ASP.NET_Razor_06.Pages
         }*/
 
         public Product product { get; set; }
-        public void OnGet(int? id)
+
+        //[FromForm]    :Doc du lieu tu Form
+        //[FromRoute]   :Doc du lieu tu RouteValues
+        //[FromQuery]   :Doc du lieu tu Query
+        //[FromHeader]  :Doc du lieu tu Headers
+        //[FromBody]    :Doc du lieu tu Body
+        
+        
+        //public void OnGet([FromRoute(Name ="sanpham")]int? id, Product sanpham)
+        public void OnGet(int? id,[Bind("Id","Name")] Product sanpham)
         {
+            Console.WriteLine($"ID: {sanpham.Id}");
+            Console.WriteLine($"ID: {sanpham.Name}");
+
+            //var data = this.Request.Form["id"];
+            //var data = this.Request.Query["id"];
+            //var data = this.Request.RouteValues["id"];
+            //var data = this.Request.Headers["id"];
+
+            var data = this.Request.Query["id"];  // + headers
+            if(!string.IsNullOrEmpty(data))
+            {
+                Console.WriteLine(data.ToString());
+            }
+            
+
+            /*var data = this.Request.RouteValues["id"];
+           {
+                Console.WriteLine(data.ToString());
+            }*/
+
             if (id != null)
             {
                 ViewData["Title"] = $"San pham (ID = {id.Value})";

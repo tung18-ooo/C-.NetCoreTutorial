@@ -1,4 +1,4 @@
-﻿@page
+﻿@page "/contact.html"
 @model CS055_ASP.NET_Razor_06.Pages.ContactRequestModel
 @{
     ViewData["Title"] = "CONTACT";
@@ -7,9 +7,9 @@
 <h1 class="display-4">Trang lien he</h1>
 <p class="lead">Dien cac thong tin lien he</p>
 
-@Model.UserId
+@* @Model.UserId
 @Model.Tong(11,11.11)
-
+ *@
 @* @functions{
     public string UserId {get;set;} = "ID User ...";
     public double Tong (double a,double b){
@@ -17,3 +17,39 @@
     }
 }
  *@
+
+<form class="bg-light p-2 m-2" method="post" asp-page="ContactRequest">
+    <div class="mb-3">
+        <label class="form-label" asp-for="userContact.UserId"></label><br />
+        <input class="form-control" asp-for="userContact.UserId" />
+        <span class="text-danger" asp-validation-for="userContact.UserId"></span>
+    </div>
+    <div class="mb-3">
+        <label class="form-label" asp-for="userContact.UserName"></label><br />
+        <input class="form-control" asp-for="userContact.UserName" />
+        <span class="text-danger" asp-validation-for="userContact.UserName"></span>
+
+    </div>
+    <div class="mb-3">
+        <label class="form-label" asp-for="userContact.Email"></label><br />
+        <input class="form-control" asp-for="userContact.Email" />
+        <span class="text-danger" asp-validation-for="userContact.Email"></span>
+
+    </div>
+    <button class="btn btn-danger" type="submit">Gui</button>
+
+</form>
+
+<div class="alert alert-danger">
+    <p>Thong tin User</p>
+    <ul>
+        <li>UserId: @Model.userContact.UserId</li>
+        <li>UserUser: @Model.userContact.UserName</li>
+        <li>Email: @Model.userContact.Email</li>
+    </ul>
+</div>
+
+
+@section Scripts{
+    <partial name="_ValidationScriptsPartial"/>
+}
