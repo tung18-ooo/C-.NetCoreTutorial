@@ -1,0 +1,20 @@
+﻿@inject CS068_ASPNET_MVC_01.Services.PlanetService planetService
+
+<h1>Các hành tinh trong Hệ Mặt Trời</h1>
+<div class="list-group">
+    @foreach (var planet in planetService)
+    {
+        <a class="list-group-item list-group-item-action" asp-action="@planet.Name" asp-route-id="@planet.Id">
+            @planet.VnName - @planet.Name
+        </a>
+    }
+</div>
+<div>
+    @Url.RouteUrl("neptune1")
+</div>
+<div>
+    @Url.RouteUrl("neptune2")
+</div>
+<div>
+    @Url.RouteUrl("neptune3")
+</div>
