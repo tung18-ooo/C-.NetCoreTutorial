@@ -1,5 +1,15 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
+
+    //Url.Action()
+    //Url.ActionLink()
+
+    //su dung ten route de phat sinh Url
+    //Url.RouteUrl()
+    //Url.Link
+
+
+    // <a> <form> <button>
 }
 
 <partial name="_AlertMessage" />
@@ -7,4 +17,74 @@
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<div>
+<p>
+    @Url.ActionLink()
+</p>
+<p>
+    @Url.Action()
+</p>
+<p>
+    @Url.Action("Pricvacy")
+</p>
+<p>
+    @Url.Action("Privacy", new {id = 123, name = "HoangTung"})
+</p>
+<p>
+    @Url.Action("Jupiter","Planet")
+</p>
+<p>
+    @Url.Action("PlanetInfo","Planet", new {id = 3})
+</p
+
+    <p>
+        @*dia chi trong Areas*@
+        @Url.Action("Index","Product", new {area = "ProductManage"})
+    </p>
+</div>
+
+
+<div>
+    <p>
+        @Url.RouteUrl("default", new {action = "HelloView", controller = "Home", id = 3, name = "HoangTung"})
+    </p>
+    <p>
+        @Url.RouteUrl("neptune2")
+    </p>
+</div>
+
+<div>
+    <ul>
+        <li>asp-area="Area"</li>
+        <li>asp-action="Action"</li>
+        <li>asp-controller="Product"</li>
+        <li>asp-route...="123"</li>
+        <li>asp-rout="default"</li>
+    </ul>
+   
+    <a asp-action="ViewProduct" asp-controller="First">Vi du 1</a>
+    <a asp-action="PlanetInfo" asp-controller="Planet" asp-route-id="3">Vi du 1</a>
+    <a asp-action="PlanetInfo" asp-controller="Planet"
+        asp-route-name="HoangTung"
+        asp-route-abc="xyz"
+        asp-route-id="3">
+        
+        Vi du 1
+    </a> 
+     @{
+        //neu co nhieu tham so route
+        var routedata = new Dictionary<string, string>()
+        {
+            {"name","HoangTung"},
+            {"abc","xyz"},
+            {"id","3"},
+        };
+    }
+    <a asp-action="PlanetInfo" asp-controller="Planet" asp-all-route-data="@routedata">
+        Vi du 1
+    </a>
+
+    
 </div>

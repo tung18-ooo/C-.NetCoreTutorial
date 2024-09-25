@@ -1,0 +1,124 @@
+﻿@* @using Microsoft.EntityFrameworkCore
+
+@inject AppDbContext dbContext
+
+@{
+    ViewData["Title"] = "Thông tin Db";
+    var connect = dbContext.Database.GetDbConnection();
+    var dbname = connect.Database;
+    var can_connect = dbContext.Database.CanConnect();
+
+    dbContext.Database.GetPendingMigrations();
+    dbContext.Database.GetAppliedMigrations();
+
+    connect.Open();
+    var tables = connect.GetSchema("Tables");
+    connect.Close();
+
+}
+
+<h2>Thong tin</h2>
+<p> - Database: @dbname</p>
+<p> - Source: @connect.DataSource</p>
+<p> - State: @connect.State</p>
+<hr />
+<h2>Migrations</h2>
+@foreach (var migration in dbContext.Database.GetAppliedMigrations())
+{
+    <p>@migration</p>
+}
+@foreach (var migration in dbContext.Database.GetPendingMigrations())
+{
+    <p>@migration (pending)</p>
+}
+
+@if (!can_connect)
+{
+    <p class="alert alert-danger">Khong co kha nang ket noi den Database</p>
+}
+
+@if (can_connect)
+{
+    <h2>Cac Tables</h2>
+
+    <ul>
+        foreach(System.Data.DataRow row in table.Rows)
+        {
+            <li>@row["TABLE_NAME"]</li>
+        }
+
+    </ul>
+} *@
+@using Microsoft.EntityFrameworkCore
+@inject AppDbContext dbContext
+
+@{
+    ViewData["Title"] = "Thông tin Db";
+    var connect = dbContext.Database.GetDbConnection();
+    var dbname = connect.Database;
+    var can_connect = dbContext.Database.CanConnect();
+
+    var pendingMigrations = dbContext.Database.GetPendingMigrations();
+    var appliedMigrations = dbContext.Database.GetAppliedMigrations();
+
+    System.Data.DataTable tables = null;
+    try
+    {
+        connect.Open();
+        tables = connect.GetSchema("Tables");
+    }
+    catch (Exception ex)
+    {
+        <p class="alert alert-danger">Lỗi kết nối: @ex.Message</p>
+    }
+    finally
+    {
+        if (connect.State == System.Data.ConnectionState.Open)
+        {
+            connect.Close();
+        }
+    }
+
+}
+
+<partial name="_AlertMessage"/>
+
+<h2>Thông tin</h2>
+<p> - Database: @dbname</p>
+<p> - Source: @connect.DataSource</p>
+<p> - State: @connect.State</p>
+<hr />
+<h2>Migrations</h2>
+@foreach (var migration in appliedMigrations)
+{
+    <p>@migration</p>
+}
+@foreach (var migration in pendingMigrations)
+{
+    <p>@migration (pending)</p>
+}
+
+@if (!can_connect)
+{
+    <p class="alert alert-danger">Không có khả năng kết nối đến Database</p>
+}
+
+@if (dbContext.Database.GetPendingMigrations().Any())
+{
+    <form method="post">
+        <button class="btn btn-success" asp-action="Migrate">Tao Db (Cap nhat migration)</button>
+    </form>
+}
+
+@if (can_connect)
+{
+    <h2>Các Tables</h2>
+    <ul>
+        @foreach (System.Data.DataRow row in tables.Rows)
+        {
+            <li>@row["TABLE_NAME"]</li>
+        }
+    </ul>
+
+    <a class="btn btn-danger" asp-action="DeleteDb">Delete database: @dbname</a>
+}

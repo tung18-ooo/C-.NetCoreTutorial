@@ -1,10 +1,19 @@
 ﻿using CS068_ASPNET_MVC_01.ExtendMethods;
+using CS068_ASPNET_MVC_01.Models;
 using CS068_ASPNET_MVC_01.Services;
 using Microsoft.AspNetCore.Mvc.Razor;
 using Microsoft.AspNetCore.Routing.Constraints;
+using Microsoft.EntityFrameworkCore;
+using System.Configuration;
 using System.Net;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddDbContext<AppDbContext>(options => {
+    string connectString = builder.Configuration.GetConnectionString("AppMvcConnectString");
+    options.UseSqlServer(connectString);
+});
+
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -62,6 +71,12 @@ app.UseEndpoints(endpoints =>
         pattern: "{controller=Home}/{action=Index}/{id?}");
 
 
+    endpoints.MapAreaControllerRoute(
+        name: "product",
+        pattern: "{controller}/{action=Index}/{id?}",
+        areaName: "ProductManage"
+        );
+
     // /sayhi
     endpoints.MapGet("/sayhi", async (context) =>
     {
@@ -97,6 +112,8 @@ app.UseEndpoints(endpoints =>
 
  }*/
 );
+
+    //Controller khong co area
     endpoints.MapControllerRoute(
 
     name: "default",

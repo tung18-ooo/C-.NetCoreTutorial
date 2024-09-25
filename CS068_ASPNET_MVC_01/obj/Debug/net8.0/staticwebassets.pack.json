@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS068_ASPNET_MVC_01\\wwwroot\\images\\e.png",
+      "PackagePath": "staticwebassets\\images\\e.png"
+    },
+    {
+      "Id": "D:\\C#\\repos\\dotnetTutorial\\CS068_ASPNET_MVC_01\\wwwroot\\images\\email.png",
+      "PackagePath": "staticwebassets\\images\\email.png"
+    },
+    {
       "Id": "D:\\C#\\repos\\dotnetTutorial\\CS068_ASPNET_MVC_01\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
